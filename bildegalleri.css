@@ -1,0 +1,15 @@
+body {
+  background-color: #F5DCE0;
+  font-family: Times New Roman;
+  margin-left:50px;
+  margin-right:50px;
+  
+}
+
+.column {
+  float: left;
+  width: 25%; /* 25% width betyr her at vi skal ha 4 bilder på en rad, om jeg hadde satt det som 33,33% hadde det blitt 3 bilder på en rad, og om jeg hadde satt det som 50% hadde det blitt 2 bilder på en rad*/
+}
+
+h1 {text-align: center;}
+p {text-align: center;}

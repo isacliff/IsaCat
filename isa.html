@@ -1,0 +1,42 @@
+ <!DOCTYPE html> <!-- Vi starter alltid et HTML dokument med dette for å fortelle nettleseren hva vi skriver i-->
+
+<html>
+  
+  <head>
+    <link rel="stylesheet" href="stylesheet.css"> <!-- Her har jeg linket CSS'en min til HTML'en min, når jeg skriver href="stylesheet.css" så lenker det "stylesheet.css" som ligger i samme mappe som .html. Jeg bruker CSS for å få farger, font og endre størrelse på ting-->
+    <title> Mine katter </title>
+  </head>
+    
+  <body>
+    
+    <p1> Klikk <a href="velkommen.html"> HER </a> for å komme tilbake til velkommen-siden </p1>
+    
+    <h1> Mine katter </h1> <!-- h1 = heading 1, som er den største headingen-->
+    
+    <img src="dashogropulf.JPG" class="center"> <!-- src="-" brukes når vi skal legge til et bilde fra samme mappe, vi skriver her inn navnet bildet har i mappen. Her har jeg valgt å bruke class="center" som putter denne taggen inn i "center" kategorien som ligger i CSS dokumentet-->
+    
+    <p> Hei! Dette er en side om alle mine katter. <br> Under finner du en liste over alle kattene mine. Her kan du klikke på navnene og du vil bli sendt til en side om denne katten.</p> <!-- p = paragraph, brukes for vanlig tekst. br=break, da altså en single-line break i teksten-->
+    
+    <h2> En liste over mine katter</h2>
+    
+    <dl> <!-- DL er en sorted/organised list hvor DT er navnet på tingen og DD blir satt et hakk inn og er beskrivelsen på hva det er-->
+      <dt> <a href="marie.html"> Marie </a> </dt> <!-- <a> taggen brukes får å lage en hyperlink mellom to nettsteder, her har jeg brukt <a> for å lage hyperlinker inne i en liste-->
+      <dd> -Eldst, svart og hvit </dd>
+      <dt> <a href="dash.html"> Dash </a> </dt>
+      <dd> -Største katt, svart og hvit </dd>
+      <dt> <a href="lissie.html"> Lissie </a> </dt>
+      <dd> -Mammakatt, svart </dd>
+      <dt> <a href="ropulf.html"> Ropulf </a> </dt>
+      <dd> -Første tvilling, svart </dd>
+      <dt> <a href="stripe.html"> Stripe </a> </dt>
+      <dd> -Andre tvilling, stripete</dd>
+    </dl>
+    <h2> Bildegalleri </h2>
+    <dl>
+    <dt> <a href="bildegalleri.html"> Bildegalleri </a> </dt>
+    <dd> -En samling med fine bilder som ikke fikk plass </dd>
+    </dl>
+    <img src="stripeogropulf.PNG" class="center">
+  </body>
+
+</html> <!-- for å avslutte dokumentet skriver vi </html> for å vise at vi er ferdig-->

@@ -1,0 +1,20 @@
+body {
+  background-color: #F5DCE0;
+  font-family: Times New Roman;
+  margin-left:50px;
+  margin-right:50px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+img:hover {
+  width: 400px;
+}
+
+h1 {text-align: center;}
+p {text-align: center;}

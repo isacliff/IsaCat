@@ -1,0 +1,21 @@
+body {
+  background-color: #F5DCE0; /* bakgrunnsfargen vi bruker, dette er en hexcode som man bruker om man vil ha en mer personalized farge, men man kan også bare skrive "red", "blue" osv.*/
+  font-family: Times New Roman; /* font family brukes når vi vil at hele dokumentet skal skrives i samme font. */
+  margin-left:50px;
+  margin-right:50px;
+}
+
+.center { /* Dette er center-gruppen jeg snakket om tidligere, her har jeg lagt inn alle tingene jeg trenger for å sentrere et bilde og jeg har også lagt inn hvor stort jeg vil at bilde skal være, her sier jeg at jeg vil at bildet skal være 300 pixels*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+img:hover { /* Det funksjonen sier er at når vi "hover"-er over bildet så går det fra 300px-500px. Når vi tar vekk musepekeren går bildet tilbake til normalen (300px).*/
+  width: 500px;
+}
+
+h1 {text-align: center;} /* Denne snakker egentlig for seg selv, men for å utdype mer så er det bare for å putte all h1 tekst i midten, samme fungerer med p, h2, h3 osv.*/
+
+p {text-align: center;}
